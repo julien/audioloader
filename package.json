@@ -1,0 +1,16 @@
+{
+  "name": "audioloader",
+  "version": "1.0.0",
+  "description": "load audio in your browser",
+  "jsnext:main": "index.js",
+  "main": "audioloader.js",
+  "scripts": {
+    "postinstall": "rollup -c"
+  },
+  "keywords": [],
+  "author": "jcastelain",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.37.0"
+  }
+}

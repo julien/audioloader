@@ -3,7 +3,6 @@
 class AudioLoader {
 	constructor(url, opts = {}) {
 		this.url = url;
-		console.log('wu', window.AudioContext, window.webkitAudioContext);
 
 		this.context = new AudioContext();
 

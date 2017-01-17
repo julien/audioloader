@@ -1,17 +1,17 @@
 <!doctype html>
 <html>
-  <head></head>
-  <body>
-    <script src="./audioloader.js"></script>
-    <script>
-      window.addEventListener('load', () => {
-        AudioLoader.load('./test.mp3')
-          .then((src) => {
-            src.loop = true;
-            src.start();
-          })
-          .catch(err => console.error(err));
-      });
-    </script>
-  </body>
+	<head></head>
+	<body>
+		<script src="./audioloader.js"></script>
+		<script>
+			window.addEventListener('load', () => {
+				AudioLoader.load('./test.mp3')
+					.then((src) => {
+						src.loop = true;
+						src.start();
+					})
+				.catch(err => console.error(err));
+			});
+		</script>
+	</body>
 </html>

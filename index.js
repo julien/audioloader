@@ -1,5 +1,4 @@
 
-
 class AudioLoader {
 	constructor(url, opts = {}) {
 		this.url = url;
